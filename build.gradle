@@ -36,7 +36,7 @@ publishing {
 
     repositories {
         maven {
-            url = "https://maven.universa.io/"
+            url = "https://maven.universablockchain.com/"
             credentials {
                 username System.getProperty("user")
                 password System.getProperty("password")
@@ -50,7 +50,7 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     maven {
-        url = "https://maven.universa.io/"
+        url = "https://maven.universablockchain.com/"
     }
 }
 
